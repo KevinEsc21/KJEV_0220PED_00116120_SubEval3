@@ -254,6 +254,7 @@ void vaciarE(){
     }
 }
 
+//Para mostrar
 void mostrarF(){
     
     if(feliz.empty()){
