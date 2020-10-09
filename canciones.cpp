@@ -155,6 +155,7 @@ void agregarF(){
     cout << "Ingrese los datos de la cancion: " << endl;
     cout << "Titulo: "; getline(cin,cancion.titulo);
     cout << "Artista: "; getline(cin, cancion.cantante);
+    cout << "Genero: "; getline(cin, cancion.genero);
     do{
         cout << "Duracion: "; cin >> cancion.duracion;
     }while(cancion.duracion<1);
@@ -169,6 +170,7 @@ void agregarT(){
     cout << "Ingrese los datos de la cancion: " << endl;
     cout << "Titulo: "; getline(cin,cancion.titulo);
     cout << "Artista: "; getline(cin, cancion.cantante);
+    cout << "Genero: "; getline(cin, cancion.genero);
     do{
         cout << "Duracion: "; cin >> cancion.duracion;
     }while(cancion.duracion<1);
@@ -183,6 +185,7 @@ void agregarE(){
     cout << "Ingrese los datos de la cancion: " << endl;
     cout << "Titulo: "; getline(cin,cancion.titulo);
     cout << "Artista: "; getline(cin, cancion.cantante);
+    cout << "Genero: "; getline(cin, cancion.genero);
     do{
         cout << "Duracion: "; cin >> cancion.duracion;
     }while(cancion.duracion<1);
